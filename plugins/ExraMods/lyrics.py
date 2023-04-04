@@ -13,16 +13,16 @@ async def sng(bot, message):
         if not message.reply_to_message:
           await message.reply_text("Please reply to a message")
         else:          
-          mee = await message.reply_text("`Searching 🔎`")
+          mee = await message.reply_text("`Searching Kar Rahi Hu 🔎`")
           song = message.reply_to_message.text
           chat_id = message.from_user.id
           rpl = lyrics(song)
           await mee.delete()
           try:
             await mee.delete()
-            await bot.send_message(chat_id, text = rpl, reply_to_message_id = message.id, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs ", url = f"t.me/mkn_bots_updates")]]))
+            await bot.send_message(chat_id, text = rpl, reply_to_message_id = message.id, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ɴᴇᴛᴡᴏʀᴋ10xᴏꜰꜰɪᴄɪᴀʟ", url = f"t.me/Network10xOfficial")]]))
           except Exception as e:                            
-             await message.reply_text(f"I Can't Find A Song With `{song}`", quote = True, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url = f"t.me/mkn_bots_updates")]]))
+             await message.reply_text(f"I Can't Find A Song With `{song}`", quote = True, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ɴᴇᴛᴡᴏʀᴋ10xᴏꜰꜰɪᴄɪᴀʟ", url = f"t.me/Network10xOfficial")]]))
 
 
 def search(song):
