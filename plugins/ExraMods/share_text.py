@@ -14,7 +14,7 @@ async def share_text(client, message):
         input_text = reply.text or reply.caption
     else:
         await message.reply_text(
-            text=f"**Notice:**\n\n1. Reply Any Messages.\n2. No Media Support\n\n**Any Question Join Support Chat**",                
+            text=f"**Notice:**\n\n1. Reply Any Messages.\n2. No Media Support\n\n**Join Movies Channel**",                
             reply_to_message_id=reply_id,               
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Movie Channel", url=f"https://t.me/FlashTenXMovies")]])
             )                                                   
