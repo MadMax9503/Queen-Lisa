@@ -37,7 +37,7 @@ async def style_buttons(c, m, cb=False):
         ],[
         InlineKeyboardButton('Next ➡️', callback_data="nxt")
         ],[
-        InlineKeyboardButton('ɴɴᴇᴛᴡᴏʀᴋ10xᴏꜰꜰɪᴄɪᴀʟ', url="https://t.me/Network10xOfficial")
+        InlineKeyboardButton('ɴᴇᴛᴡᴏʀᴋ10xᴏꜰꜰɪᴄɪᴀʟ', url="https://t.me/Network10xOfficial")
     ]]
     if not cb:
         if ' ' in m.text:
@@ -80,7 +80,7 @@ async def nxt(c, m):
             ],[
             InlineKeyboardButton('⬅️ Back', callback_data='nxt+0')
             ],[
-            InlineKeyboardButton('ɴɴᴇᴛᴡᴏʀᴋ10xᴏꜰꜰɪᴄɪᴀʟ', url="https://t.me/Network10xOfficial")
+            InlineKeyboardButton('ɴᴇᴛᴡᴏʀᴋ10xᴏꜰꜰɪᴄɪᴀʟ', url="https://t.me/Network10xOfficial")
         ]]
         await m.answer()
         await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
