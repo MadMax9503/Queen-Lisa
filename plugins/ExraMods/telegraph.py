@@ -36,7 +36,7 @@ async def telegraph_upload(bot, update):
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton(text="Open Link", url=f"https://graph.org{response[0]}"),
             InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://graph.org{response[0]}")
-            [
+            ],[
             InlineKeyboardButton(text="𝑭𝒍𝒂𝒔𝒉 𝑴𝒐𝒗𝒊𝒆𝒔", url=f"https://t.me/FlashTenXMovies")
             ],[
             InlineKeyboardButton(text="✗ Close ✗", callback_data="close")
