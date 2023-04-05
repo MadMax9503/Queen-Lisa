@@ -57,6 +57,8 @@ WELCOM_TEXT = environ.get("WELCOM_TEXT", "Hai {user}\nwelcome to {chat}")
 PMFILTER = environ.get('PMFILTER', "True")
 G_FILTER = bool(environ.get("G_FILTER", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "True")
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Team_HMT/8')
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # url shortner
 SHORT_URL = environ.get("SHORT_URL")
