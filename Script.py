@@ -26,7 +26,7 @@ class script(object):
 
 <code>/batch https://t.me/mkn_bots_updates https://t.me/mkn_bots_updates</code>
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/Network10xOfficial><b>𝙽𝙴𝚃𝚆𝙾𝚁𝙺𝟷𝟶𝚇 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/mkn_bots_updates><b>𝙽𝙴𝚃𝚆𝙾𝚁𝙺𝟷𝟶𝚇 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻</b></a>"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
