@@ -49,7 +49,7 @@ async def verupikkals(bot, message):
 async def remove_junkuser__db(bot, message):
     users = await db.get_all_users()
     b_msg = message 
-    sts = await message.reply_text('in progress.......🥱')   
+    sts = await message.reply_text('in progress.......')   
     start_time = time.time()
     total_users = await db.total_users_count()
     blocked = 0
