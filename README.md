@@ -113,7 +113,9 @@ clear_junk_group - clear add removed group or deactivated groups on db
 Licensed under [GNU AGPL 2.0.](https://github.com/EvamariaTG/evamaria/blob/master/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
-This Queen-Lisa Bot Is A Copy Of Mkn Professor Bot, If You Want To Use MKN Professor-Bot Repo Instead Of Mine Then It's Ok 🥲
+This Queen-Lisa Bot Is A Copy Of Mkn Professor Bot.
+
+If You Want To Use MKN Professor-Bot Repo Instead Of Mine Then It's Ok 🥲
 
 Use It 👉🏻 [![MKN Professor-Bot](https://img.shields.io/static/v1?label=MKN&message=Professor-Bot&color=critical)](https://github.com/MrMKN/PROFESSOR-BOT)
 
