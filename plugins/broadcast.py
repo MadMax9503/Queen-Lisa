@@ -10,7 +10,7 @@ from info import ADMINS
 import asyncio
         
 @Client.on_message(filters.command("broadcast") & filters.user(ADMINS) & filters.reply)
-# vazha മരത്തെ കളിയാക്കിയവർ o##fi
+# vazha Those who made fun of the tree o##fi
 async def verupikkals(bot, message):
     users = await db.get_all_users()
     b_msg = message.reply_to_message
@@ -49,7 +49,7 @@ async def verupikkals(bot, message):
 async def remove_junkuser__db(bot, message):
     users = await db.get_all_users()
     b_msg = message 
-    sts = await message.reply_text('in progress.......')   
+    sts = await message.reply_text('in progress.......🥱')   
     start_time = time.time()
     total_users = await db.total_users_count()
     blocked = 0
